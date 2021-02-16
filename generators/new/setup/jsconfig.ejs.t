@@ -7,11 +7,9 @@ to: jsconfig.json
         "allowSyntheticDefaultImports": false,
         "baseUrl": "./",
         "paths": {
-            "@/components": ["src/components/*"],
-            "@/containers": ["src/containers/*"],
-            "@/composables": ["src/composables/*"],
-            "@/helpers": ["src/helpers/*"],
-            "@/*": ["src/*"],
+            "@modules": ["src/store/modules/*"],
+            "@h": ["src/helpers/*"],
+            "@/*": ["src/*"]
         }
     },
     "exclude": ["node_modules", "dist", "docs"]

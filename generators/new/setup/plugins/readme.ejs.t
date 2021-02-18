@@ -1,6 +1,6 @@
---
+---
 to: src/plugins/README.md
---
+---
 # Plugins
 Plugins are functions that get are applied to createApp in the main.js file.
 These plugins can handle functionality that always runs, or improves development efficiency.

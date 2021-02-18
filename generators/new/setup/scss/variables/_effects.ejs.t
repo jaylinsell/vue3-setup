@@ -15,6 +15,9 @@ to: src/assets/scss/variables/_effects.scss
     --shadow-md: 0 1px 8px rgba(0, 0, 0, .085), 0 8px 24px rgba(0, 0, 0, .1); // medium depth
     --shadow-lg: 0 1px 8px rgba(0, 0, 0, .085), 0 16px 48px rgba(0, 0, 0, .085), 0 24px 60px rgba(0, 0, 0, .085); // high depth
     --shadow-xl: 0 1px 8px rgba(0, 0, 0, .085), 0 16px 64px rgba(0, 0, 0, .15), 0 24px 100px rgba(0, 0, 0, .15); // higher depth
+    --shadow-bar: 0 5px 8px rgba(0, 0, 0, .085), 0 18px 24px rgba(0, 0, 0, .05);
+    --shadow-up-lg: 0 -15px 12px -19px rgba(0, 0, 0, .085), 0 -32px 34px -14px rgba(0, 0, 0, .05);
+    --shadow-up-sm: 0 -11px 12px -10px rgba(0, 0, 0, .085), 0 -22px 34px 10px rgba(0, 0, 0, .05);
 
     // timing functions
     // credits: https://github.com/ai/easings.net

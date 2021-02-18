@@ -20,7 +20,7 @@ module.exports = {
         '@composables': path.resolve(__dirname, 'src/composables'),
         '@containers': path.resolve(__dirname, 'src/containers'),
         '@helpers': path.resolve(__dirname, 'src/helpers'),
-        '@modules': path.resolve(_dirname, 'src/store/modules')
+        '@modules': path.resolve(__dirname, 'src/store/modules')
       }
     }
   }

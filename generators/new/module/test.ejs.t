@@ -4,7 +4,7 @@ to: src/store/modules/<%= h.changeCase.kebab(name) %>/<%= h.changeCase.kebab(nam
 <%
   const fileName = h.changeCase.kebab(name)
   const importName = h.changeCase.camel(fileName) + 'Module'
-%>import * as <%= importName %> from './<%= fileName %>/'
+%>import <%= importName %> from './' // will import the modules index.js
 
 describe('@modules/name/<%= fileName %>', () => {
   it('exports a valid Vuex module', () => {

@@ -1,4 +1,3 @@
-
 ---
 to: src/helpers/format-money.js
 ---

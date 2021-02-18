@@ -1,5 +1,5 @@
 ---
-to: src/plugins/register-components.js
+to: src/plugins/register-base-components.js
 ---
 import { upperFirst, camelCase } from 'lodash'
 

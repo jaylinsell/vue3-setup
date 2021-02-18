@@ -2,7 +2,7 @@
 to: src/assets/scss/scaffold/_buttons.scss
 ---
 :root {
-    --btn-label: ;
+    --btn-label: var(--color-white);
     --btn-padding: var(--space-sm) var(--space-md);
     --btn-font-size: 1em;
     --btn-font-weight: var(--font-medium);
@@ -13,8 +13,8 @@ to: src/assets/scss/scaffold/_buttons.scss
 
     --btn-radius: 4px;
     // transparent border so transitions to a border don't change the width
+    --btn-border-width: 1px;
     --btn-border-color: transparent;
-    --btn-border: 1px solid var(--btn-border-color);
     --btn-bg: var(--color-primary);
     --btn-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
@@ -52,14 +52,14 @@ button, [type=submit]{
     font-size: var(--btn-font-size);
     transition: .25s var(--ease-out);
     font-weight: var(--btn-font-weight);
-    border: var(--btn-border);
+    border: var(--btn-border-width) solid var(--btn-border-color);
     background: var(--btn-bg);
 
     &--primary {
         --btn-bg: var(--color-primary);
         &:hover { --btn-bg: var(--color-primary-dark); }
         &:focus {
-            --btn-border: 1px solid var(--color-primary-darker);
+            --btn-border-color: var(--color-primary-darker);
             --btn-shadow: 0 0 5px 0 var(--color-primary-lighter);
         }
     }
@@ -67,11 +67,11 @@ button, [type=submit]{
     &--secondary {
         --btn-bg: transparent;
         --btn-border-color: var(--color-primary);
-        --btn-color: var(--color-primary);
+        --btn-label: var(--color-primary);
 
         &:hover {
             --btn-bg: var(--color-primary-light);
-            --btn-color: white;
+            --btn-label: white;
         }
     }
 

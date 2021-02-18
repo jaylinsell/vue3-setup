@@ -36,4 +36,24 @@ module.exports = [
             return true
         },
     },
+    {
+        type: 'select',
+        name: 'tests',
+        message: 'Unit Test File:',
+        initial: ['none', 'folder', 'onetoone'],
+        choices: [
+            {
+                name: 'none',
+                message: 'No test file',
+            },
+            {
+                name: 'folder',
+                message: 'In tests folder',
+            },
+            {
+                name: 'onetoone',
+                message: '1 to 1',
+            },
+        ]
+    },
 ]

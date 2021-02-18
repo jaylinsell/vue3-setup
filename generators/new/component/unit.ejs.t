@@ -1,5 +1,11 @@
 ---
-to: tests/unit/<%= h.changeCase.pascal(name) %>.unit.js
+to: "<%=
+  tests === 'none'
+    ? null
+    : tests === 'folder'
+      ? `tests/unit/${h.changeCase.pascal(name)}.unit.js`
+      : `src/components/${h.changeCase.pascal(name)}.unit.js`
+      %>"
 ---
 <%
   const importName = h.changeCase.pascal(name)

@@ -1,6 +1,6 @@
 ---
 inject: true
-to: estlintrc.js
+to: .eslintrc.js
 before: "__tests__"
 ---
         '(*.)(spec|test|unit).js',

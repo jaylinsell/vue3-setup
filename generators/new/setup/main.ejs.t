@@ -1,5 +1,6 @@
 ---
 to: src/main.js
+force: true
 ---
 import { createApp } from 'vue'
 // import VueMeta from 'vue-meta' Currently awaiting Vue3 release. There is a Beta version for this currently.

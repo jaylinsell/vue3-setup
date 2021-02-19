@@ -1,5 +1,6 @@
 ---
 to: src/App.vue
+force: true
 ---
 <template>
   <component :is="$route.meta.layout" v-if="$route.meta.layout">

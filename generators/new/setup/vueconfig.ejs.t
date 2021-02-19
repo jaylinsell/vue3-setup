@@ -1,5 +1,6 @@
 ---
 to: vue.config.js
+force: true
 ---
 const path = require('path')
 module.exports = {

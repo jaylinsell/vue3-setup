@@ -1,5 +1,6 @@
 ---
 to: jsconfig.json
+force: true
 ---
 {
     "compilerOptions": {

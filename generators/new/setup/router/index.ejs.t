@@ -1,5 +1,6 @@
 ---
 to: src/router/index.js
+force: true
 ---
 import { createRouter, createWebHistory } from 'vue-router'
 

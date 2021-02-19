@@ -1,5 +1,6 @@
 ---
 to: jest.config.js
+force: true
 ---
 const _ = require('lodash')
 // Use a random port number for the mock API by default,

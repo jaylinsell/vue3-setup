@@ -1,5 +1,5 @@
 ---
-to: /tests/matchers.js
+to: tests/matchers.js
 ---
 // See these docs for details on Jest's matcher utils:
 // https://facebook.github.io/jest/docs/en/expect.html#thisutils
